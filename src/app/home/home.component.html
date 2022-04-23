@@ -1,0 +1,66 @@
+<!--Top Menu-->
+<nav class="navbar navbar-expand-lg navbar-light bg-success">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">
+      <img src="/assets/img/do.png" alt="" width="30" height="24">
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" 
+    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" routerLink="" mat-button>Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" routerLink="/add"  mat-button >Add</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" routerLink="/update" mat-button>Update</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" routerLink="/remove" mat-button>Re-move</a>
+         
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<!--Sub-Nav bar-->
+<nav class="navbar navbar-expand-lg navbar-light bg-info justify-content-between  ">
+  <div class="container">
+
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
+          aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+
+
+      <div class="collapse navbar-collapse float-right" id="navbarTogglerDemo02">
+          <ul class="navbar-nav  ml-auto">
+              <li class="nav-item active">
+                  <a class="nav-link active" href="#">Add <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link active" href="#">Update</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link active " href="#">Delete</a>
+              </li>
+          </ul>
+
+      </div>
+  </div>
+</nav>
+<!-- Sidebar -->
+<div id="mySidebar" class="sidebar">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="#">Profile</a>
+  <a href="#">Username</a>
+  <a href="#">Login</a>
+</div>
+
+<div id="main">
+  <button class="openbtn" onclick="openNav()">&#9776; Open Sidebar</button>
+</div>
